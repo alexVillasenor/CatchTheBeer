@@ -10,7 +10,7 @@ var config = {
     }
 };
 
-var timer = 0.0;
+var timer = 0;
 var score = 0;
 var gameOver = false;
 var scoreText;
@@ -53,9 +53,9 @@ function create ()
 function update ()
 {
     scoreText.setText('Score: ' + score + '        Timer: ' + timer);
-    if (score < 200) 
+    if (timer < 1000) 
     {
-        timer += 0.1
+        timer += 1
     }
     else{
         sprite.destroy()
