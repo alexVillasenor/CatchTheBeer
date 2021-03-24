@@ -23,7 +23,7 @@ function preload ()
     this.load.image('layer01', 'assets/Hills Layer 01.png');
     this.load.image('layer02', 'assets/Hills Layer 02.png');
     this.load.image('layer03', 'assets/Hills Layer 03.png');
-    this.load.image('beer', 'assets/beer.png');
+    this.load.image('beer', 'assets/Beer.png');
 }
 
 function create ()
